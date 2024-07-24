@@ -1,0 +1,109 @@
+.banner-container {
+    position: relative;
+    text-align: center;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures no extra space below the image */
+}
+
+.bannerword {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    background: rgba(0, 0, 0, 0.3); /* Optional: background for better readability */
+    padding: 10px;
+    text-align: left; /* Center align text */
+    font-style: italic; /* Cursive text */
+    border-radius: 14px;
+    max-width: 80%; /* Prevents text from overflowing on smaller screens */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .bannerword {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 992px) {
+    .bannerword {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    .bannerword {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .bannerword {
+        font-size: 20px;
+        padding: 5px; /* Adjust padding for smaller screens */
+        position: absolute;
+        top: 55%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.glitter-star {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: radial-gradient(circle, white, transparent);
+    border-radius: 50%;
+    pointer-events: none; /* Prevent the stars from interfering with mouse events */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glitter effect */
+    transform: scale(0);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+@keyframes sparkle {
+    0% { transform: scale(0); opacity: 1; }
+    50% { transform: scale(1); opacity: 0.8; }
+    100% { transform: scale(0); opacity: 0; }
+}
+.whatsapp-container {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 1000; /* Ensures button is above other content */
+}
+
+.whatsapp-button {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+   
+    display: block; /* Make sure it's a block-level element for better layout */
+    text-decoration: none; /* Remove underline from link */
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.productimage{
+    height: 350px;
+        width:100%;
+        border: 0px;
+    }
+    
+    /* Responsive styling for mobile devices */
+    @media only screen and (max-width: 768px) {
+        .productimage {
+            height: auto; /* Adjust height for better fit on mobile */
+            width: 100%; /* Width remains 100% */
+        }
+    }
+    
