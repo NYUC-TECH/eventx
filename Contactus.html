@@ -252,6 +252,13 @@
 		</header>
 		<!-- Content
 		============================================= -->
+		<!-- whatsapp icon -->
+				   <!-- WhatsApp Button Container -->
+				   <div class="whatsapp-container">
+					<a href="https://wa.me/1234567890?text=Hi," class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp"><img src="websiteimages/wp.gif" alt=""></a>
+				</div>
+
+
 		<div id="content">
 			<div class="content-wrap">
 
@@ -266,41 +273,29 @@
 						<div class="col-md-7">
 							<div class="form-widget">
 
-								<div class="form-result"></div>
+							
 
-								<form class="mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
-
-									<div class="form-process">
-										<div class="css3-spinner">
-											<div class="css3-spinner-scaler"></div>
-										</div>
-									</div>
-
+								<form class="mb-0" id="template-contactform" name="template-contactform" onsubmit="sendMessage(event)">
 									<div class="row">
 										<div class="col-12 form-group mb-4">
 											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="form-control rounded-0 bg-color-2 text-center text-md-start required" placeholder="Your Name">
 										</div>
-
 										<div class="col-12 form-group mb-4">
 											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email form-control rounded-0 bg-color-2 text-center text-md-start" placeholder="Email Address">
 										</div>
-
 										<div class="col-12 form-group mb-4">
 											<textarea class="required form-control rounded-0 bg-color-2 text-center text-md-start" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30" placeholder="Message"></textarea>
 										</div>
-
 										<div class="col-12 form-group mb-4 d-none">
 											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="form-control rounded-0 bg-color-2 text-center text-md-start">
 										</div>
-
 										<div class="col-12 form-group mb-4">
 											<button class="button button-large m-0 bg-color text-light h-op-08" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
 										</div>
 									</div>
-
 									<input type="hidden" name="prefix" value="template-contactform-">
-
 								</form>
+
 							</div>
 						</div>
 
@@ -474,15 +469,41 @@
 		</footer>
 
 	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="uil uil-angle-up"></div>
+<!-- 
+	
+	<div id="gotoTop" class="uil uil-angle-up"></div> -->
 
 	<!-- JavaScripts
 	============================================= -->
 	<script src="js/plugins.min.js"></script>
 	<script src="js/functions.bundle.js"></script>
 
+
+	<script>
+        function sendMessage(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Collect form data
+            const name = document.getElementById('template-contactform-name').value.trim();
+            const email = document.getElementById('template-contactform-email').value.trim();
+            const message = document.getElementById('template-contactform-message').value.trim();
+
+            if (!name || !email || !message) {
+                alert("Please fill out all fields.");
+                return;
+            }
+
+            // Construct the WhatsApp message
+            const enquiryMessage = `Hello, I have an enquiry.\n\nDetails:\nName: ${name}\nEmail: ${email}\nMessage: ${message}`;
+            const phoneNumber = '919817188259'; // Replace with your WhatsApp phone number
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(enquiryMessage)}`;
+
+            // Open WhatsApp with the message
+            window.open(url, '_blank');
+
+            // Clear the form fields
+            document.getElementById('template-contactform').reset();
+        }
+    </script>
 </body>
 </html>
