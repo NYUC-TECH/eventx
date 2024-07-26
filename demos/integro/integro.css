@@ -25,7 +25,7 @@ body.dark {
 #header,
 .not-dark {
 	--cnvs-header-bg: var(--cnvs-secondary-color);
-	--cnvs-primary-menu-submenu-bg: var(--cnvs-themecolor);
+	--cnvs-primary-menu-submenu-bg: #7f1ada;
 	--cnvs-primary-menu-submenu-font-color: var(--cnvs-secondary-color);
 	--cnvs-primary-menu-submenu-hover-color: var(--bs-gray-900);
 }
@@ -67,7 +67,7 @@ body.dark {
 .owl-carousel {
 	--cnvs-owl-nav-sizes: 46px;
 	--cnvs-owl-nav-background: rgba(0,0,0,0.5);
-	--cnvs-owl-nav-bg: var(--cnvs-themecolor);
+	--cnvs-owl-nav-bg: #7f1ada;
 }
 
 .dark .owl-carousel .owl-nav [class*=owl-] span {

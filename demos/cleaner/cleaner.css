@@ -116,12 +116,12 @@
 .btn-outline-secondary:active,
 .btn-outline-secondary.active,
 .btn-outline-secondary.dropdown-toggle.show {
-	background-color: var(--cnvs-themecolor);
-	border-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
+	border-color: #7f1ada;
 }
 
 .toggle .toggleta i {
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .section:not(.nobg) .fancy-title h4 { background-color: #F9F9F9; }
@@ -168,7 +168,7 @@
 		top: 50%;
 		left: 100%;
 		width: 150%;
-    	border-top: 1px dashed var(--cnvs-themecolor);
+    	border-top: 1px dashed #7f1ada;
 		transform: translateY(-50%);
 		z-index: 0;
 	}

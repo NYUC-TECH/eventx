@@ -54,7 +54,7 @@ nav.custom-hero-nav { display: none; }
 .button.button-color.reverse,
 .button.button-color:hover {
 	background-color: #222 !important;
-	color: var(--cnvs-themecolor) !important;
+	color: #7f1ada !important;
 }
 
 .social-icon.si-mini {
@@ -101,7 +101,7 @@ nav.custom-hero-nav { display: none; }
 
 .dark .testi-meta {
 	font-size: 18px;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	letter-spacing: 1px;
 	margin-top: 30px;
 }
@@ -109,7 +109,7 @@ nav.custom-hero-nav { display: none; }
 .testi-content p::before,
 .testi-content p::after {
 	position: absolute;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	font-size: 100px;
 	top: 0;
 	line-height: 1.4;
@@ -163,7 +163,7 @@ nav.custom-hero-nav { display: none; }
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 400;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	font-family: var(--cnvs-primary-font);
 }
 
@@ -213,7 +213,7 @@ p.price-desc {
 
 .product .product-image a.shop-icon i {
 	padding: 15px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: #111;
 	border-radius: 50%;
 	-webkit-transition: background-color .3s ease;
@@ -247,7 +247,7 @@ p.price-desc {
 	--cnvs-input-btn-padding-y : 		7px;
 	--cnvs-input-btn-padding-x :		4px;
 	--cnvs-input-btn-font-size :		17px;
-	--cnvs-input-btn-border-color:      var(--cnvs-themecolor);
+	--cnvs-input-btn-border-color:      #7f1ada;
 	--cnvs-input-font-family:      		var(--cnvs-primary-font);
 }
 
@@ -286,7 +286,7 @@ p.price-desc {
 	}
 
 	nav.custom-hero-nav li.active a,
-	nav.custom-hero-nav li:hover a { color: var(--cnvs-themecolor); }
+	nav.custom-hero-nav li:hover a { color: #7f1ada; }
 
 	#header:not(.sticky-header) {
 		pointer-events: none;

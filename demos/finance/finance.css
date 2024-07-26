@@ -25,7 +25,7 @@
 
 #header {
 	--cnvs-primary-menu-font: var(--cnvs-body-font);
-	--cnvs-primary-menu-submenu-bg: var(--cnvs-themecolor);
+	--cnvs-primary-menu-submenu-bg: #7f1ada;
 	--cnvs-primary-menu-submenu-width: 240px;
 	--cnvs-primary-menu-submenu-hover-bg: transparent;
 }
@@ -128,7 +128,7 @@
 
 .dark .hover-button { color: #FFF; }
 
-.services-grid .feature-box { background-color: var(--cnvs-themecolor); }
+.services-grid .feature-box { background-color: #7f1ada; }
 
 .dark .services-grid .feature-box .fbox-icon i { background-color: rgba(255,255,255,0.15); }
 
@@ -214,7 +214,7 @@
 
 	.services-grid .feature-box:hover {
 		transform: translateY(-6px);
-		border-color: var(--cnvs-themecolor);
+		border-color: #7f1ada;
 	}
 
 	.services-grid .feature-box:not(:hover) .hover-button {

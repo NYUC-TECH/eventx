@@ -13,7 +13,7 @@
 	--cnvs-body-font: 'Inter', sans-serif;
 
 	--cnvs-side-header-width: 280px;
-	--cnvs-heading-color: var(--cnvs-themecolor);
+	--cnvs-heading-color: #7f1ada;
 }
 
 #header {
@@ -134,7 +134,7 @@ blockquote { font-size: 16px; }
 .feature-box.media-box.color1 .fbox-media a { color: var(--cnvs-color-light); }
 .feature-box.media-box.color2 .fbox-media a { color: var(--cnvs-color2); }
 .feature-box.media-box.color3 .fbox-media a { color: var(--cnvs-color3); }
-.feature-box.media-box.color4 .fbox-media a { color: var(--cnvs-themecolor); }
+.feature-box.media-box.color4 .fbox-media a { color: #7f1ada; }
 
 
 

@@ -86,17 +86,18 @@
 }
 
 .whatsapp-button {
-    width: 60px; /* Adjust size as needed */
-    height: 60px; /* Adjust size as needed */
+    width: 70px; /* Adjust size as needed */
+    height: 70px; /* Adjust size as needed */
    
     display: block; /* Make sure it's a block-level element for better layout */
     text-decoration: none; /* Remove underline from link */
 }
+*
 
 body{
     overflow-x: hidden;
+   
 }
-
 
 .productimage{
     height: 350px;
@@ -202,3 +203,71 @@ body{
     .button:hover {
         background-color: #02b2fb;
     }
+
+
+  /* Webkit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 12px;
+
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #7f1ada;
+    border-radius: 10px;
+    border: 3px solid #e0e0e0;
+    transition: background-color 0.3s ease, border 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #5e00b8;
+    border: 3px solid #c4c4c4;
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #7f1ada #e0e0e0;
+  }
+
+  /* Scrollbar track and thumb animations for Firefox */
+  body::-webkit-scrollbar-thumb {
+    transition: background-color 0.3s ease, border 0.3s ease;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #5e00b8;
+    border: 3px solid #c4c4c4;
+  }
+
+  .button:hover
+  {
+   color: black;
+    background-color: white;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    position: relative;
+    padding-left: 15px; /* Adjusted padding to align with smaller discs */
+    margin-bottom: 10px;
+  }
+
+  li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px; /* Smaller width */
+    height: 8px; /* Smaller height */
+    background-color: #7f1ada;
+    border-radius: 50%;
+  }

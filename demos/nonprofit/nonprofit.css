@@ -15,7 +15,7 @@
 
 #header {
 	--cnvs-header-height: 70px;
-	--cnvs-header-bg: var(--cnvs-themecolor);
+	--cnvs-header-bg: #7f1ada;
 	--cnvs-header-sticky-bg: var(--cnvs-header-bg);
 }
 
@@ -134,7 +134,7 @@
 }
 
 .slider-feature a:hover {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	transform: translateY(-2px);
 	z-index: 1;
 }
@@ -228,7 +228,7 @@
 .charity-card .skill-progress-percent::after {
 	content: "\F518";
 	font-family: 'bootstrap-icons';
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	position: absolute;
 	right: -8px;
 	top: 50%;
@@ -345,7 +345,7 @@
 	z-index: -1;
 	border-radius: 6px;
 	opacity: .3;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .bg-color-shadow.left::before {
@@ -381,7 +381,7 @@
 .team-image img { border-radius: 6px }
 
 .team.full-border {
-	border: 5px solid var(--cnvs-themecolor);
+	border: 5px solid #7f1ada;
 	border-radius: 4px;
 }
 
@@ -399,7 +399,7 @@
 	width: 120px;
 	height: 120px;
 	line-height: 110px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	border-radius: 50%;
 	text-align: center;
 	transform: translate(-50%, -45%);
@@ -477,7 +477,7 @@ body:not(.nonprofit-processing) .nonprofit-loader { display: none; }
 
 .fc-calendar .fc-row > div.fc-today,
 .fc-calendar .fc-row > div > div a, .fc-calendar .fc-row > div > div span {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	box-shadow: none;
 }
 
@@ -551,7 +551,7 @@ body:not(.nonprofit-processing) .nonprofit-loader { display: none; }
 	width: 50px;
 	height: 50px;
 	border-radius: 8px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: #FFF;
 	cursor: pointer;
 	z-index: 3;
@@ -718,7 +718,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 		border-right-color: transparent;
 		border-bottom-width: var(--cnvs-header-height, 70px);
 		border-bottom-style:  solid;
-		border-bottom-color: var(--cnvs-themecolor);
+		border-bottom-color: #7f1ada;
 		z-index: 0;
 	}
 

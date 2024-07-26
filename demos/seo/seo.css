@@ -107,7 +107,7 @@ div.menu-link { cursor: default; }
 input.switch-toggle-round + label::before,
 input.switch-toggle-round + label {
 	border-radius: 4px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .price-discount {
@@ -207,8 +207,8 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 }
 
 .badge.badge-default {
-	border: 1px solid var(--cnvs-themecolor);
-	color: var(--cnvs-themecolor);
+	border: 1px solid #7f1ada;
+	color: #7f1ada;
 }
 
 /* Testimonials Carousel

@@ -110,7 +110,7 @@ body.side-panel-open #side-panel {
 		-ms-transform: rotate(45deg);
 		-o-transform: rotate(45deg);
 		transform: rotate(45deg);
-		color: var(--cnvs-themecolor);
+		color: #7f1ada;
 	}
 }
 
@@ -282,7 +282,7 @@ body.side-panel-open #side-panel {
 #demo-interior-tab.nav-tabs {
 	--bs-nav-tabs-border-width: 0px;
 	--bs-nav-link-color: #111;
-	--bs-nav-link-hover-color: var(--cnvs-themecolor);
+	--bs-nav-link-hover-color: #7f1ada;
 }
 
 #demo-interior-tab.nav-tabs .nav-item .nav-link {

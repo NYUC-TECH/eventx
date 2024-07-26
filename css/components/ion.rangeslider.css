@@ -12,7 +12,7 @@ Build date: 2019-12-19 16:51:02
   --cnvs-range-slider-handle_height: 18px;
   --cnvs-range-slider-custom_radius: 4px;
   --cnvs-range-slider-line_color: var(--cnvs-contrast-200);
-  --cnvs-range-slider-bar_color: var(--cnvs-themecolor);
+  --cnvs-range-slider-bar_color: #7f1ada;
   --cnvs-range-slider-handle_color_1: var(--cnvs-range-slider-bar_color);
   --cnvs-range-slider-handle_color_2: var(--cnvs-contrast-500);
   --cnvs-range-slider-minmax_text_color: var(--cnvs-contrast-600);

@@ -302,7 +302,7 @@ p {
 .form-select:focus,
 .component-flatpickr.form-control[readonly]:focus {
 	background-color: #FFF;
-	border-color: var(--cnvs-themecolor);
+	border-color: #7f1ada;
 	outline: none;
 	box-shadow: none;
 	border-radius: 0;

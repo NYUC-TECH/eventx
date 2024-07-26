@@ -262,7 +262,7 @@ img.wheel {
 	border-radius: 23px;
 	text-transform: none;
 	letter-spacing: 1px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .grid-filter.style-2 li a span {

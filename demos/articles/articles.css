@@ -39,7 +39,7 @@
 .slider-arrow-left:hover,
 .slider-arrow-right:hover {
 	transform: translateY(-50%) scale(1.15);
-	background-color: var(--cnvs-themecolor) !important;
+	background-color: #7f1ada !important;
 }
 
 .swiper-button-disabled {
@@ -80,7 +80,7 @@
 }
 
 .article-price del { color: #BBB }
-body:not(.dark) .article-price { color: var(--cnvs-themecolor) }
+body:not(.dark) .article-price { color: #7f1ada }
 
 
 /* elements
@@ -105,7 +105,7 @@ body:not(.dark) .article-price { color: var(--cnvs-themecolor) }
 	opacity: .8;
 	border-width: 2px;
 	border-style: solid;
-	border-color: var(--cnvs-themecolor);
+	border-color: #7f1ada;
 }
 
 .section-features .btn-link { font-size: 14px; }

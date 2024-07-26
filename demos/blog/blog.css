@@ -132,7 +132,7 @@ body.dark,
 }
 
 .dark .entry-categories a {
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .entry:not(:last-child)::after {
@@ -585,8 +585,8 @@ a.more-link i {
 
 .widget-nav .nav .nav-item.active .nav-link,
 .widget-nav .nav .nav-item:hover .nav-link {
-	border-left-color: var(--cnvs-themecolor);
-	color: var(--cnvs-themecolor);
+	border-left-color: #7f1ada;
+	color: #7f1ada;
 }
 
 .dark .form-control:not(.not-dark), .dark .sm-form-control:not(.not-dark) {

@@ -50,7 +50,7 @@ body {
 }
 
 .is-expanded-menu #header.transparent-header.sticky-header #header-wrap .container .button-gaming {
-	--cnvs-btn-gaming-color: var(--cnvs-themecolor);
+	--cnvs-btn-gaming-color: #7f1ada;
 	--cnvs-btn-gaming-bg: #FFF;
 }
 
@@ -61,7 +61,7 @@ body {
 .text-shadow-effect,
 .h-text-shadow-effect:hover {
 	--cnvs-text-shadow-size: 2px;
-	text-shadow: var(--cnvs-text-shadow-size) var(--cnvs-text-shadow-size) var(--cnvs-themecolor);
+	text-shadow: var(--cnvs-text-shadow-size) var(--cnvs-text-shadow-size) #7f1ada;
 	transition: text-shadow 0.5s ease;
 }
 
@@ -92,7 +92,7 @@ body {
 
 /* button-gaming */
 .button-gaming {
-	--cnvs-btn-gaming-bg: var(--cnvs-themecolor);
+	--cnvs-btn-gaming-bg: #7f1ada;
 	--cnvs-btn-gaming-color: #FFF;
 	--cnvs-btn-gaming-size: 14px;
 	--cnvs-btn-gaming-padding: 30px;
@@ -102,7 +102,7 @@ body {
 }
 
 .button-gaming:hover {
-	--cnvs-btn-gaming-color: var(--cnvs-themecolor);
+	--cnvs-btn-gaming-color: #7f1ada;
 	--cnvs-btn-gaming-bg: #FFF;
 }
 
@@ -167,7 +167,7 @@ body {
 
 /* button-gaming */
 .is-expanded-menu #header.transparent-header.sticky-header #header-wrap .container {
-	--cnvs-btn-gaming-bg: var(--cnvs-themecolor);
+	--cnvs-btn-gaming-bg: #7f1ada;
 	--cnvs-btn-gaming-color: #FFF;
 	--cnvs-btn-gaming-size: 14px;
 	--cnvs-btn-gaming-padding: 30px;
@@ -319,7 +319,7 @@ body {
 	--cnvs-loader-width: 80px;
 	aspect-ratio: 1;
 	display: grid;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	background:
 		conic-gradient(from -153deg at right,#0000,currentColor 1deg 126deg,#0000 127deg) calc(50% + 5px) 0   /10px 50%,
 		conic-gradient(from   27deg at left ,#0000,currentColor 1deg 126deg,#0000 127deg) calc(50% - 5px) 100%/10px 50%,

@@ -89,7 +89,7 @@ h1, h2, h3, h4 {
 	--bs-nav-link-font-size: 15px;
 	--bs-nav-link-font-weight: 600;
 	--cnvs-tabs-active-color: #FFF;
-	--cnvs-tabs-active-bg-color: var(--cnvs-themecolor);
+	--cnvs-tabs-active-bg-color: #7f1ada;
 }
 
 .travel-organiser-tabs .nav-tabs .nav-item .nav-link:hover,
@@ -105,7 +105,7 @@ h1, h2, h3, h4 {
 
 .tabs.travel-organiser-tabs { width: 60% !important; }
 
-.travel-organiser-tabs .canvas-tabs { border-bottom: 4px solid var(--cnvs-themecolor); }
+.travel-organiser-tabs .canvas-tabs { border-bottom: 4px solid #7f1ada; }
 
 .travel-organiser-tabs .nav-tabs .nav-item {
 	margin-left: 1px;
@@ -214,12 +214,12 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay-open 
 	top: 2px;
 }
 
-.checkbox-style:checked + .checkbox-style-2-label::before { background: var(--cnvs-themecolor); }
+.checkbox-style:checked + .checkbox-style-2-label::before { background: #7f1ada; }
 
 .hotel-price {
 	display: block;
 	font-size: 30px;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	font-weight: 600;
 	line-height: 1.1;
 	letter-spacing: 1px;

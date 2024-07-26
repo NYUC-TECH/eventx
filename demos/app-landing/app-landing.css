@@ -51,11 +51,11 @@
 
 .is-expanded-menu #header:not(.sticky-header) .menu-item.menu-item-emphasis:hover > .menu-link div {
 	background-color: #FFF;
-	color: var(--cnvs-themecolor) !important;
+	color: #7f1ada !important;
 }
 
 .is-expanded-menu #header.sticky-header .menu-item.menu-item-emphasis > .menu-link div {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: #FFF;
 }
 
@@ -173,7 +173,7 @@
 .testimonial-full .flex-next:hover { background-color: transparent !important; }
 
 .testimonial-full .flex-prev:hover i,
-.testimonial-full .flex-next:hover i { color: var(--cnvs-themecolor); }
+.testimonial-full .flex-next:hover i { color: #7f1ada; }
 
 
 .owl-stage-outer  { overflow: visible !important; }
@@ -203,7 +203,7 @@
 
 .owl-carousel .owl-dots .owl-dot {
 	margin-top: 60px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .owl-carousel .owl-dots .owl-dot span {
@@ -216,7 +216,7 @@
 }
 
 .owl-carousel .owl-dots .owl-dot.active span,
-.owl-carousel .owl-dots .owl-dot:hover span { background-color: var(--cnvs-themecolor) !important; }
+.owl-carousel .owl-dots .owl-dot:hover span { background-color: #7f1ada !important; }
 
 
 
@@ -279,7 +279,7 @@
 }
 
 .pts-switcher input.switch-toggle-round + label::before,
-.pts-switcher input.switch-toggle-round + label { background-color: var(--cnvs-themecolor); }
+.pts-switcher input.switch-toggle-round + label { background-color: #7f1ada; }
 
 
 .app-footer-features h5 {
@@ -337,7 +337,7 @@
 	transition: all .3s ease;
 }
 
-.section-more-link:hover { color: var(--cnvs-themecolor); }
+.section-more-link:hover { color: #7f1ada; }
 
 .section-more-link:hover i { left: 3px; }
 

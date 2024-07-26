@@ -38,7 +38,7 @@
 
 .navbar-expand-lg .navbar-nav .nav-item:not(.active) .nav-link { color: #444; }
 
-.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link { color: var(--cnvs-themecolor) }
+.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link { color: #7f1ada }
 
 .menu-link {
 	text-transform: none;
@@ -126,7 +126,7 @@
 
 .course-card .card-title a { color: #333; }
 
-.course-card .card-title a:hover { color: var(--cnvs-themecolor); }
+.course-card .card-title a:hover { color: #7f1ada; }
 
 .course-card  .card-title-sub { font-size: 11px; }
 

@@ -12,11 +12,11 @@
 	--cnvs-body-font: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
 
 	--cnvs-section-bg: #f9f6e9;
-	--cnvs-side-header-bg: var(--cnvs-themecolor);
+	--cnvs-side-header-bg: #7f1ada;
 }
 
 .dark {
-	--cnvs-side-header-bg: var(--cnvs-themecolor);
+	--cnvs-side-header-bg: #7f1ada;
 }
 
 #header {

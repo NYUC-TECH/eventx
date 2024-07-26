@@ -14,15 +14,15 @@
 	--cnvs-primary-menu-tt: uppercase;
 	--cnvs-primary-menu-font-size: 13px;
 	--cnvs-primary-menu-font-weight: 600;
-	--cnvs-primary-menu-hover-color: var(--cnvs-themecolor) !important;
-	--cnvs-primary-menu-active-color: var(--cnvs-themecolor) !important;
+	--cnvs-primary-menu-hover-color: #7f1ada !important;
+	--cnvs-primary-menu-active-color: #7f1ada !important;
 }
 
 /* Slider Section */
 .slider-element {
 	height: 600px;
 	overflow: visible;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .slider-title h2 {
@@ -262,7 +262,7 @@
 	-webkit-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 	border-radius: 50%;
-	background: var(--cnvs-themecolor);
+	background: #7f1ada;
 	opacity: 0;
 	z-index: -1;
 	-webkit-animation: pulsate 3.5s ease-out infinite;
@@ -375,7 +375,7 @@
 .irs-single { top: -12px; }
 
 .irs-slider {
-	background: var(--cnvs-themecolor);
+	background: #7f1ada;
 	border-radius: 50%;
 	width: 28px;
 	height: 28px;
@@ -459,7 +459,7 @@
 	-ms-transform: skewY(-1.5deg);
 	-o-transform: skewY(-1.5deg);
 	transform: skewY(-1.5deg);
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	z-index: 1;
 }
 

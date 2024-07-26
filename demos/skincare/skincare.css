@@ -10,7 +10,7 @@
 	--cnvs-body-color: #FFF7EC;
 	--cnvs-color: #AEBE89;
 	--cnvs-color2: #E8EECF;
-	--cnvs-text-color: var(--cnvs-themecolor);
+	--cnvs-text-color: #7f1ada;
 	--cnvs-header-bg: var(--cnvs-body-color);
 }
 
@@ -44,7 +44,8 @@
 .top-cart-content,
 .content-wrap,
 .section {
-	background-color: var(--cnvs-body-color);
+	/* background-color: var(--cnvs-body-color); */
+	background-color: black !important;
 }
 
 .bg-color-2,
@@ -55,13 +56,14 @@
 .line-separator {
 	width: 1px;
 	height: 40px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .top-primary-menu .menu-container>.menu-item>.menu-link {
-	color: var(--cnvs-text-color);
-	font-weight: 400;
-	font-size: .9325rem;
+	/* color: var(--cnvs-text-color); */
+	color: #02b2fb;
+	font-weight: 300;
+	font-size: 20px;
 	font-family: var(--cnvs-body-font) !important;
 }
 
@@ -72,7 +74,7 @@
 
 .sub-menu-container .menu-item>.menu-link {
 	font-size: 1rem;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .main-primary-menu .menu-container>.menu-item:hover>.menu-link {
@@ -91,7 +93,7 @@
 }
 
 .menu-item .sub-menu-trigger {
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .negative-service-text {
@@ -158,10 +160,10 @@
 	display: inline-block;
 	padding: 0 1.75rem;
 	font-size: 3rem;
-	text-shadow: -1px 0 var(--cnvs-themecolor),
-	0 1px var(--cnvs-themecolor),
-	1px 0 var(--cnvs-themecolor),
-	0 -1px var(--cnvs-themecolor);
+	text-shadow: -1px 0 #7f1ada,
+	0 1px #7f1ada,
+	1px 0 #7f1ada,
+	0 -1px #7f1ada;
 	font-weight: normal;
 	text-transform: uppercase;
 }
@@ -193,7 +195,7 @@
 }
 
 [data-slideactive="slider-2"] .rs-layer-nav {
-	color: var(--cnvs-themecolor) !important;
+	color: #7f1ada !important;
 }
 
 
@@ -204,8 +206,8 @@
 .owl-carousel.owl-nav-hover-fixed .owl-nav [class*=owl-],
 .owl-carousel:hover .owl-nav [class*=owl-] {
 	background-color: var(--cnvs-color2);
-	color: var(--cnvs-themecolor);
-	border: 1px solid var(--cnvs-themecolor) !important;
+	color: #7f1ada;
+	border: 1px solid #7f1ada !important;
 	transition: none;
 }
 
@@ -232,7 +234,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	border-radius: 50%;
 	width: calc(100% + 10px);
 	height: calc(100% + 10px);
@@ -251,8 +253,8 @@
 .stretched #gotoTop {
 	bottom: -1px;
 	background-color: var(--cnvs-color2);
-	color: var(--cnvs-themecolor);
-	border: 1px solid var(--cnvs-themecolor);
+	color: #7f1ada;
+	border: 1px solid #7f1ada;
 }
 
 /* Safari and Chrome */
@@ -347,7 +349,7 @@
 
 	.main-primary-menu .sub-menu-container .menu-item:hover>.menu-link {
 		background-color: var(--cnvs-color2);
-		color: var(--cnvs-themecolor);
+		color: #7f1ada;
 	}
 
 	.sub-menu-container .menu-item>.menu-link {
@@ -413,7 +415,7 @@
 	font-size: 12px;
 	line-height: 12px;
 	text-align: center;
-	color: var(--cnvs-themecolor) !important;
+	color: #7f1ada !important;
 	transition: all .3s ease;
 	transform-origin: center center;
 }
@@ -438,14 +440,14 @@
 
 .cart-border .quantity {
 	--cnvs-cart-quantity-bg: transparent;
-	--cnvs-cart-quantity-border-color: var(--cnvs-themecolor);
+	--cnvs-cart-quantity-border-color: #7f1ada;
 	--cnvs-cart-quantity-bg-hover: transparent;
 	border: var(--cnvs-cart-quantity-border) solid var(--cnvs-cart-quantity-border-color);
 }
 
 .cart-border-2 .quantity {
 	--cnvs-cart-quantity-height: 48px;
-	--cnvs-cart-quantity-color-hover: var(--cnvs-themecolor);
+	--cnvs-cart-quantity-color-hover: #7f1ada;
 }
 
 
@@ -535,7 +537,7 @@
 }
 
 .irs--round .irs-handle {
-	border-color: var(--cnvs-themecolor);
+	border-color: #7f1ada;
 }
 
 .irs--round .irs-line {
@@ -549,7 +551,7 @@
 
 .active-filter .shop-filter-count {
 	opacity: 1;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .skincare-filter
@@ -559,7 +561,7 @@
 }
 
 #shop-filter-btn.show {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: #FFF !important;
 }
 

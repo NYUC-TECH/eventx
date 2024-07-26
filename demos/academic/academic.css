@@ -31,7 +31,7 @@ body.dark {
 }
 
 .dark #header {
-	--cnvs-primary-menu-hover-color: var(--cnvs-themecolor);
+	--cnvs-primary-menu-hover-color: #7f1ada;
 	--cnvs-header-border-color: var(--cnvs-contrast-200);
 }
 
@@ -65,7 +65,7 @@ body:not(.dark) .divider {
 .dark.is-expanded-menu .menu-item:hover,
 .dark.is-expanded-menu .menu-item.current {
 	background-color: var(--cnvs-contrast-200);
-	border-color: var(--cnvs-themecolor) !important;
+	border-color: #7f1ada !important;
 }
 
 
@@ -99,7 +99,7 @@ body:not(.dark) .divider {
 .feature-box-border-vertical .fbox-active.feature-box .fbox-icon i,
 .feature-box-border-vertical .fbox-active.feature-box .fbox-border.fbox-light .fbox-icon i,
 .feature-box-border-vertical .fbox-active.feature-box:not(.noborder)::after {
-	background-color: var(--cnvs-themecolor) !important;
+	background-color: #7f1ada !important;
 	border-color: var(--cnvs-body-bg);
 	box-shadow: 0 0 0 5px var(--cnvs-body-bg);
 	color: var(--cnvs-body-bg);
@@ -117,7 +117,7 @@ body:not(.dark) .divider {
 }
 
 .dark .entry-title h3 a {
-	--cnvs-post-title-font-color: var(--cnvs-themecolor);
+	--cnvs-post-title-font-color: #7f1ada;
 }
 
 .social-lists.list-group {

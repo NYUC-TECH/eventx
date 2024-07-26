@@ -32,7 +32,7 @@ body {
 .bg-color,
 .page-transition-wrap, .css3-spinner { background-color: var(--cnvs-body-bg) !important; }
 
-.css3-spinner > div {  background-color: var(--cnvs-themecolor) !important; }
+.css3-spinner > div {  background-color: #7f1ada !important; }
 
 .dark body,
 .dark h1,
@@ -43,7 +43,7 @@ body {
 .dark h6,
 .dark #copyrights,
 #copyrights.dark,
-.dark .copyright-links a { color: var(--cnvs-themecolor); }
+.dark .copyright-links a { color: #7f1ada; }
 
 #wrapper,
 #content {
@@ -118,7 +118,7 @@ body {
 	left: 0;
 	width: 0%;
 	height: 3px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	transition: width .5s cubic-bezier(.645, .045, .355, 1);
 }
 
@@ -178,7 +178,7 @@ blockquote {
 
 .grid-border {
 	--cnvs-grid-border-width: 1px;
-	--cnvs-grid-border-color: var(--cnvs-themecolor);
+	--cnvs-grid-border-color: #7f1ada;
 	--cnvs-grid-border-opacity: var(--cnvs-border-opacity);
 
 	overflow: inherit;
@@ -237,7 +237,7 @@ blockquote {
 	margin-top: 25px;
 		font-size: 22px;
 		text-transform: none;
-		color: var(--cnvs-themecolor);
+		color: #7f1ada;
 		font-family: var(--cnvs-primary-font);
 }
 .testi-meta::before { display: none; }
@@ -252,7 +252,7 @@ blockquote {
 	opacity: 1 !important;
 	background-color: var(--cnvs-secondary-color);
 	border-color: rgba(var(--cnvs-themecolor-rgb), var(--cnvs-border-opacity));
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	width: 40px;
 	height: 40px;
 	margin: 0px;
@@ -365,7 +365,7 @@ blockquote {
 .is-expanded-menu .header-misc a {
 	padding: 39px 27px;
 	border-left: 1px solid rgba(var(--cnvs-themecolor-rgb), var(--cnvs-border-opacity));
-	background-color:  var(--cnvs-themecolor);
+	background-color:  #7f1ada;
 	color: var(--cnvs-secondary-color) !important;
 }
 
@@ -381,7 +381,7 @@ blockquote {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .toast-success {
-	background-color: var(--cnvs-themecolor) !important;
+	background-color: #7f1ada !important;
 	color: var(--cnvs-secondary-color) !important;
 }
 

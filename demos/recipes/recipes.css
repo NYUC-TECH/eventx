@@ -386,7 +386,7 @@ ol.list-preparation li::before {
     content: counter(step-counter) ". ";
     margin-right: 14px;
     color: #267DF4;
-    color: var(--cnvs-themecolor);
+    color: #7f1ada;
     font-weight: 700;
     margin-left: -38px;
     margin-top: 2px;

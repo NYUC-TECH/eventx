@@ -217,7 +217,7 @@
 
 .page-link,
 .page-link:hover,
-.page-link:focus { border-color: var(--cnvs-themecolor); }
+.page-link:focus { border-color: #7f1ada; }
 
 .reservation-form {
 	position: relative;

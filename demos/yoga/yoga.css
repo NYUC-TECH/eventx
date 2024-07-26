@@ -28,7 +28,7 @@
 
 #header .button-link {
 	padding: 8px 14px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: #FFF;
 	font-size: 13px;
 	border-radius: 3px;
@@ -73,7 +73,7 @@
 
 .slider-arrow-left i,
 .slider-arrow-right i {
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	text-shadow: none;
 	height: 50px;
 	line-height: 48px;
@@ -101,7 +101,7 @@
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	border: 0;
-	border-top: 6px solid var(--cnvs-themecolor);
+	border-top: 6px solid #7f1ada;
 }
 
 .testi-content p {
@@ -136,7 +136,7 @@
 }
 
 .play-icon:hover i {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: #FFF;
 }
 
@@ -188,7 +188,7 @@
 #oc-teachers .owl-nav [class*=owl-]:hover {
 	transform: scale(1.3);
 	background-color: transparent !important;
-	color: var(--cnvs-themecolor) !important;
+	color: #7f1ada !important;
 }
 
 /* Owl Carousel - Responsive
@@ -219,9 +219,9 @@
 
 .section-schedule .nav-pills .nav-link.active {
 	box-shadow: 3px 8px 30px 4px rgba(0, 0, 0, 0.2);
-	border-left-color: var(--cnvs-themecolor);
+	border-left-color: #7f1ada;
 	background-color: #FFF;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .section-schedule .nav-link::after {
@@ -367,7 +367,7 @@
 
 
 .price-features {
-	border: 1px solid var(--cnvs-themecolor);
+	border: 1px solid #7f1ada;
 	border-radius: 10px;
 }
 

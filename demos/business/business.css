@@ -162,7 +162,7 @@
 
 .dark .button-link { color: #FFF; }
 
-.button-link:hover { color: var(--cnvs-themecolor); }
+.button-link:hover { color: #7f1ada; }
 
 .button-link::after {
 	content: '';

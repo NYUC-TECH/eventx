@@ -53,14 +53,14 @@
 }
 
 #header-wrap .container {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     --bs-gutter-x: 40px;
 }
 
 #side-panel {
-	--cnvs-side-panel-bg: var(--cnvs-themecolor);
+	--cnvs-side-panel-bg: #7f1ada;
 }
 
 .hero-diagonal {
@@ -70,7 +70,7 @@
 	left: 0;
 	bottom: 0;
 	clip-path: polygon(0 82%, 100% 0, 100% 100%, 0% 100%);
-	background-color: var(--cnvs-themecolor);;
+	background-color: #7f1ada;;
 }
 
 .iconlist li i {
@@ -86,7 +86,7 @@
 
 .side-panel-trigger a {
 	background-color: #FFF;
-	color: var(--cnvs-themecolor);;
+	color: #7f1ada;;
 	display: block;
     width: 24px;
     height: 24px;
@@ -148,6 +148,6 @@ body:not(.is-expanded-menu) .side-panel-trigger a {
 	width: 10%;
 	height: 0.25rem;
 	border-radius: 2rem;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	transform: translateX(-50%);
 }

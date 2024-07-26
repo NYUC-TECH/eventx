@@ -67,7 +67,7 @@
 	--bs-nav-link-padding-x: 0;
 	--bs-nav-link-padding-y: 2px;
 	--bs-nav-tabs-link-active-bg: transparent;
-	--bs-nav-tabs-link-active-color: var(--cnvs-themecolor);
+	--bs-nav-tabs-link-active-color: #7f1ada;
 	--bs-nav-link-hover-color: var(--bs-nav-tabs-link-active-color);
 	--bs-nav-link-font-size: 14px;
 	--bs-nav-link-font-weight: 600;
@@ -79,7 +79,7 @@
 }
 
 .studio-tab .tabs .nav-link.active {
-	border-bottom: 2px solid var(--cnvs-themecolor);
+	border-bottom: 2px solid #7f1ada;
 }
 
 .section-counter a.btn-link {

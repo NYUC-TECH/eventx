@@ -145,7 +145,7 @@ body.dark,
 }
 
 #footer {
-	border-top: 1px solid var(--cnvs-themecolor);
+	border-top: 1px solid #7f1ada;
 }
 
 /* Responsive Device more than 992px (.device-md >)

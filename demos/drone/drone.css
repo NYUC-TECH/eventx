@@ -72,7 +72,7 @@
 .button-offset:is(:hover, :focus) {
 	outline-width: 3px;
 	outline-style: solid;
-	outline-color: var(--cnvs-themecolor);
+	outline-color: #7f1ada;
 	outline-offset: 0;
 	transition: all .1s;
 }

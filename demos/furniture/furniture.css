@@ -28,7 +28,7 @@ h5,
 h6,
 p,
 .fbox-content p {
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .bg-color-light,
@@ -60,7 +60,7 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
   background-image: linear-gradient(
 	to bottom,
 	#375754 0%,
-	var(--cnvs-themecolor) 90%,
+	#7f1ada 90%,
 	var(--cnvs-themecolor-light) 90%
   );
 }
@@ -166,7 +166,7 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
 	background-image: linear-gradient(
 		to bottom,
 		#375754 0%,
-		var(--cnvs-themecolor) 84%,
+		#7f1ada 84%,
 		var(--cnvs-themecolor-light) 84%
 		);
 	}
@@ -356,7 +356,7 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
 	height: 46px;
 	line-height: 46px;
 	background-color: var(--cnvs-themecolor-light);
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	font-weight: 500;
 }
 
@@ -439,7 +439,7 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
 }
 
 .sortbuttons > .button.show {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color:#FFF;
 }
 
@@ -466,7 +466,7 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
 .page-item.active .page-link,
 .page-link:hover,
 .page-link:focus {
-	border-color: var(--cnvs-themecolor) !important;
+	border-color: #7f1ada !important;
 }
 
 

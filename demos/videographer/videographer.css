@@ -86,7 +86,7 @@ body.dark,
 	font-weight: normal;
 	top: 5px;
 	right: 5px;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .img-hover-block:hover span {

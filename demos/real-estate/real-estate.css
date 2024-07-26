@@ -74,7 +74,7 @@
 		padding: 0 !important;
 		border-radius: 3px;
 		border: 0;
-		background-color: var(--cnvs-themecolor);
+		background-color: #7f1ada;
 	}
 
 	.sub-menu-container .menu-item:not(:first-child) { border-top: 1px dotted rgba(255,255,255,0.1) !important; }
@@ -93,7 +93,7 @@
 	.dark .primary-menu:not(.not-dark) .sub-menu-container,
 	.dark .primary-menu:not(.not-dark) .mega-menu-content,
 	.primary-menu.dark .sub-menu-container,
-	.primary-menu.dark .mega-menu-content { background-color: var(--cnvs-themecolor); }
+	.primary-menu.dark .mega-menu-content { background-color: #7f1ada; }
 
 	.dark .primary-menu:not(.not-dark) .sub-menu-container .menu-item > .menu-link,
 	.primary-menu.dark .sub-menu-container .menu-item > .menu-link { color: #CCC !important; }
@@ -111,7 +111,7 @@
 .dark #header:not(.transparent-header),
 #header.dark:not(.transparent-header),
 #header.dark.sticky-header.transparent-header #header-wrap:not(.not-dark),
-#footer.dark { background-color: var(--cnvs-themecolor); }
+#footer.dark { background-color: #7f1ada; }
 
 .dark #header:not(.transparent-header),
 #header.dark:not(.transparent-header) { border-bottom: 1px solid rgba(255,255,255,0.1); }
@@ -138,7 +138,7 @@
 .advanced-real-estate-tabs .canvas-tabs {
 	--bs-nav-tabs-border-width: 0;
 	--bs-nav-link-padding-x: 20px;
-	--cnvs-tabs-bg-color: var(--cnvs-themecolor);
+	--cnvs-tabs-bg-color: #7f1ada;
 	--bs-nav-link-color: #FFF;
 	--bs-nav-link-font-size : 15px;
 	--bs-nav-link-font-weight: 600;
@@ -166,7 +166,7 @@
 }
 
 .advanced-real-estate-tabs .nav-tabs .nav-item.ui-tabs-active .nav-link .badge.bg-warning {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .advanced-real-estate-tabs .nav-tabs .nav-item .badge { margin-left: 5px; }
@@ -203,7 +203,7 @@
 
 .promo.bg-color .button:hover {
 	background-color: #FFF;
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 	text-shadow: none;
 }
 
@@ -215,7 +215,7 @@
 .owl-carousel .owl-nav [class*=owl-] {
 	border-color: transparent;
 	color: #FFF;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 }
 
 .owl-carousel.real-estate .owl-nav [class*=owl-]:hover { background-color: var(--cnvs-secondary-color) !important; }
@@ -375,7 +375,7 @@
 
 .real-estate-item-link:hover {
 	border-color: transparent;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: #FFF;
 }
 
@@ -470,7 +470,7 @@ body.side-panel-open #side-panel {
 
 
 #gotoTop {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	border-radius: 50%;
 }
 

@@ -39,7 +39,7 @@
 	width: 110%;
 	margin-left: -55%;
 	height: 2px;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	transform-origin: center center;
 	transform: scaleX(0);
 	transition: transform .3s cubic-bezier(.645, .045, .355, 1);
@@ -69,7 +69,7 @@
 }
 
 .header-misc-icon a:hover {
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .speaker-gallery img {
@@ -116,13 +116,13 @@
 
 .top-account .dropdown-menu {
 	border-color: #EEE;
-	border-top: 2px solid var(--cnvs-themecolor);
+	border-top: 2px solid #7f1ada;
 	box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, .05);
 }
 
 .top-cart-open a,
 .top-account a.show {
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .sub-menu-container .menu-item>.menu-link,
@@ -260,7 +260,7 @@
 .circle-wave i {
 	position: relative;
 	font-size: var(---circle-wave-font-size);
-	background: var(--cnvs-themecolor);
+	background: #7f1ada;
 	color: #FFF;
 	text-align: center;
 	height: var(---circle-wave-size);
@@ -332,7 +332,7 @@
 }
 
 #gotoTop {
-	--cnvs-gotoTop-stroke-color: var(--cnvs-themecolor);
+	--cnvs-gotoTop-stroke-color: #7f1ada;
 	--cnvs-gotoTop-stroke-size: 32px;
 	--cnvs-gotoTop-stroke-width: 4px;
 	--cnvs-scroll-progress-range: calc((var(--cnvs-body-height) - var(--cnvs-viewport-height)) / var(--cnvs-body-height));

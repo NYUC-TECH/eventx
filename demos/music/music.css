@@ -88,7 +88,7 @@
 }
 
 .slider-arrow-left:hover i,
-.slider-arrow-right:hover i { color: var(--cnvs-themecolor); }
+.slider-arrow-right:hover i { color: #7f1ada; }
 
 .heading-block h3 {
 	text-transform: none;
@@ -264,14 +264,14 @@
 .tabs-music-demo .tabs {
 	--bs-nav-link-color: var(--cnvs-contrast-500);
 	--bs-nav-tabs-link-active-bg: transparent;
-	--bs-nav-tabs-link-active-color: var(--cnvs-themecolor);
+	--bs-nav-tabs-link-active-color: #7f1ada;
 	--bs-nav-link-hover-color: var(--bs-nav-tabs-link-active-color);
 	--bs-nav-link-font-size: 14px;
 	--bs-nav-link-font-weight: 500;
 }
 
 .tabs-music-demo .tabs .nav-link.active {
-	border-bottom: 2px solid var(--cnvs-themecolor);
+	border-bottom: 2px solid #7f1ada;
 }
 
 .tab-container { padding-top: 30px; }
@@ -295,7 +295,7 @@
 }
 
 .bg-overlay-floating > a:hover {
-	color: var(--cnvs-themecolor) !important;
+	color: #7f1ada !important;
 }
 
 .bg-overlay-floating .dropdown-item {

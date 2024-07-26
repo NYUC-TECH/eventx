@@ -42,8 +42,8 @@ body {
 	--cnvs-primary-menu-font-size: 1.125rem;
 	--cnvs-primary-menu-tt: uppercase;
 	--cnvs-primary-menu-ls: 1px;
-	--cnvs-primary-menu-color: var(--cnvs-themecolor);
-	--cnvs-primary-menu-submenu-hover-bg: var(--cnvs-themecolor);
+	--cnvs-primary-menu-color: #7f1ada;
+	--cnvs-primary-menu-submenu-hover-bg: #7f1ada;
 	--cnvs-primary-menu-hover-color: var(--cnvs-themecolor-2);
 }
 
@@ -76,7 +76,7 @@ body:not(.is-expanded-menu) #header {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 2px solid var(--cnvs-themecolor);
+	border: 2px solid #7f1ada;
 	z-index: 0;
 	transform: translate(7px, 7px);
 	transition: .2s ease;
@@ -96,8 +96,8 @@ body:not(.is-expanded-menu) #header {
 }
 
 body.is-expanded-menu .button-header {
-	border-color: var(--cnvs-themecolor);
-	color: var(--cnvs-themecolor);
+	border-color: #7f1ada;
+	color: #7f1ada;
 }
 
 body:not(.is-expanded-menu) .button-header {
@@ -107,7 +107,7 @@ body:not(.is-expanded-menu) .button-header {
 
 body:not(.is-expanded-menu) .button.button-border:not(.button-fill).button-header:hover {
 	background-color: var(--cnvs-themecolor-2);
-	color: var(--cnvs-themecolor);
+	color: #7f1ada;
 }
 
 .hero-wine-img,
@@ -171,7 +171,7 @@ body:not(.is-expanded-menu) .button.button-border:not(.button-fill).button-heade
 	--cnvs-slider-arrows-offset: 30px;
     left: var(--cnvs-slider-arrows-offset);
     transform: translateY(-50%);
-	border: 2px solid var(--cnvs-themecolor);
+	border: 2px solid #7f1ada;
 	border-radius: 50%;
 	line-height: 42px;
 	text-align: center;

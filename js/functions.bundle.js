@@ -2974,7 +2974,7 @@ if( typeof jQuery !== 'undefined' ) {
 
 					if( elLoaderColor ) {
 						if( elLoaderColor == 'theme' ) {
-							elLoaderCSSVar = ' style="--cnvs-loader-color:var(--cnvs-themecolor);"';
+							elLoaderCSSVar = ' style="--cnvs-loader-color:#7f1ada;"';
 						} else {
 							elLoaderCSSVar = ' style="--cnvs-loader-color:'+elLoaderColor+';"';
 						}

@@ -39,7 +39,7 @@
 
 .dark {
 	--cnvs-header-sticky-bg: transparent;
-	--cnvs-header-floating-bg: var(--cnvs-themecolor);
+	--cnvs-header-floating-bg: #7f1ada;
 }
 
 .slider-element {
@@ -165,7 +165,7 @@
 
 
 .services-categories .services-category-item a:hover {
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	color: rgba(255,255,255,0.6);
 }
 
@@ -178,7 +178,7 @@
 }
 
 #categories-tab.nav-pills {
-	--bs-nav-pills-link-active-bg: var(--cnvs-themecolor);
+	--bs-nav-pills-link-active-bg: #7f1ada;
 	gap: 10px;
 }
 
@@ -209,7 +209,7 @@
 	left: 0;
 	bottom: 0;
 	z-index: -1;
-	background-color: var(--cnvs-themecolor);
+	background-color: #7f1ada;
 	border-radius: 12px;
 }
 

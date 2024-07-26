@@ -10,7 +10,7 @@
 }
 
 .dark {
-	--cnvs-header-sticky-bg:  var(--cnvs-themecolor);
+	--cnvs-header-sticky-bg:  #7f1ada;
 }
 
 #header {
@@ -115,7 +115,7 @@
 
 	.grid-border {
 		--cnvs-grid-border-width: 2px;
-		--cnvs-grid-border-color: var(--cnvs-themecolor);
+		--cnvs-grid-border-color: #7f1ada;
 		--cnvs-grid-border-opacity: .1;
 	}
 

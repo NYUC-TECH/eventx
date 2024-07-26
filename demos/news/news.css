@@ -36,7 +36,7 @@
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-home:hover > .menu-link,
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-home.current > .menu-link,
 .menu-item.menu-color-home .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-home .sub-menu-container .menu-item.current > .menu-link { color: var(--cnvs-themecolor) !important; }
+.menu-item.menu-color-home .sub-menu-container .menu-item.current > .menu-link { color: #7f1ada !important; }
 
 .color-travel,
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-travel:hover > .menu-link,
@@ -88,7 +88,7 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 .bg-home,
 .bg-color-home.nav-link:hover,
 .menu-color-home > a::before,
-.bg-color-home.nav-link.active { background: var(--cnvs-themecolor) !important; }
+.bg-color-home.nav-link.active { background: #7f1ada !important; }
 
 .bg-travel,
 .bg-color-travel.nav-link:hover,
@@ -294,7 +294,7 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 }
 
 /* Line Colors */
-.line-home { border-bottom-color:  var(--cnvs-themecolor) !important; }
+.line-home { border-bottom-color:  #7f1ada !important; }
 .line-travel { border-bottom-color:  var(--cnvs-color-travel) !important; }
 .line-tech { border-bottom-color:  var(--cnvs-color-tech) !important; }
 .line-fashion { border-bottom-color:  var(--cnvs-color-fashion) !important; }
@@ -305,7 +305,7 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 .line-light { border-bottom-color:  var(--cnvs-color-light, #F8F9FA) !important; }
 .line-dark { border-bottom-color:  var(--cnvs-color-dark, #343A40) !important; }
 
-.line-home::after { border-top-color:  var(--cnvs-themecolor) !important; }
+.line-home::after { border-top-color:  #7f1ada !important; }
 .line-travel::after { border-top-color:  var(--cnvs-color-travel) !important; }
 .line-tech::after { border-top-color:  var(--cnvs-color-tech) !important; }
 .line-fashion::after { border-top-color:  var(--cnvs-color-fashion) !important; }

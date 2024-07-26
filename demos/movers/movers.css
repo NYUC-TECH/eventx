@@ -27,9 +27,9 @@
 }
 
 #header {
-	--cnvs-header-bg: var(--cnvs-themecolor);
+	--cnvs-header-bg: #7f1ada;
 	--cnvs-primary-menu-hover-color: #FFF;
-	--cnvs-primary-menu-submenu-hover-color: var(--cnvs-themecolor);
+	--cnvs-primary-menu-submenu-hover-color: #7f1ada;
 	--cnvs-primary-menu-font-size: 	0.875;
 	--cnvs-primary-menu-font-weight: 500;
 }
