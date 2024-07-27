@@ -13804,11 +13804,13 @@ body:not(.stretched) {
 }
 
 a {
-  color: #7f1ada);
+  color: #02b2fb;
 }
 a:not(.btn-link):not(.text-decoration-underline):not(.more-link) {
   text-decoration: none !important;
 }
+/* Styles for the active pseudo-class */
+
 a:hover {
   color: #7f1ada;
 }
@@ -17297,7 +17299,7 @@ img.lazy:not([src]) {
   --cnvs-primary-menu-submenu-border: 1px solid rgba(var(--cnvs-contrast-rgb), 0.1);
   --cnvs-primary-menu-submenu-hover-bg: rgba(var(--cnvs-contrast-rgb), 0.025);
   --cnvs-primary-menu-submenu-subtitle-color: var(--cnvs-contrast-600);
-  --cnvs-header-misc-icons-color: var(--cnvs-primary-menu-color);
+  --cnvs-header-misc-icons-color: #02b2fb;
   --cnvs-side-panel-bg: var(--cnvs-contrast-100);
 }
 
@@ -17346,7 +17348,7 @@ img.lazy:not([src]) {
   --cnvs-primary-menu-submenu-subtitle-font-weight: 400;
   --cnvs-primary-menu-submenu-subtitle-tt: none;
   --cnvs-header-misc-icons-size:	1.125rem;
-  --cnvs-header-misc-icons-color:	var(--cnvs-primary-menu-color);
+  --cnvs-header-misc-icons-color:	#02b2fb;
   --cnvs-mega-menu-width-sm: 400px;
   --cnvs-mobile-menu-off-canvas-width: 280px;
   --cnvs-top-search-font-size:	2rem;
@@ -17799,7 +17801,7 @@ body:not(.top-search-open) .top-search-parent .primary-menu-trigger {
   font-size: 12px;
   line-height: 32px;
   text-align: center;
-  color: var(--cnvs-primary-menu-color);
+  color: #02b2fb;
   transition: transform 0.3s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -17826,7 +17828,7 @@ body:not(.top-search-open) .top-search-parent .primary-menu-trigger {
   display: block;
   line-height: 22px;
   padding: var(--cnvs-primary-menu-padding-y) var(--cnvs-primary-menu-padding-x);
-  color: var(--cnvs-primary-menu-color);
+  color: #02b2fb;
   font-weight: var(--cnvs-primary-menu-font-weight);
   font-size: var(--cnvs-primary-menu-font-size);
   font-family: var(--cnvs-primary-menu-font);
@@ -18947,7 +18949,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
   padding: 10px 80px 10px 0;
   height: 100%;
   background-color: transparent !important;
-  color: var(--cnvs-primary-menu-color) !important;
+  color: #02b2fb !important;
   font-weight: 500;
   margin-top: 0 !important;
   font-family: var(--cnvs-primary-font);
@@ -19163,13 +19165,13 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 }
 .top-cart-item-price {
   font-size: 0.75rem;
-  color: var(--cnvs-primary-menu-color);
+  color: #02b2fb;
 }
 .top-cart-item-quantity {
   padding-top: 5px;
   font-size: 0.75rem;
   line-height: 1.25rem;
-  color: var(--cnvs-primary-menu-color);
+  color: #02b2fb;
 }
 .top-cart-action {
   align-items: center;
@@ -24040,7 +24042,7 @@ td.actions {
   font-family: var(--cnvs-primary-font);
   text-transform: var(--cnvs-featured-box-font-tt);
   margin-bottom: 0;
-  color: green
+  color: green;
 }
 .fbox-content p {
   margin-top: 0.5rem;
