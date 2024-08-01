@@ -20908,7 +20908,9 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 .content-wrap p {
   line-height: var(--cnvs-line-height-content);
-  color: white !important;
+  /* color: white !important; */
+  color: #000;
+
 }
 
 .grid-container,
@@ -22375,8 +22377,8 @@ p.wp-caption-text {
 .product-title h3 a, .product-title .h3 a,
 .single-product .product-title h2 a,
 .single-product .product-title .h2 a {
-  /* color: var(--cnvs-heading-color); */
-  color: white;
+  color: var(--cnvs-heading-color);
+  /* color: white; */
   font-size: 21px;
 }
 

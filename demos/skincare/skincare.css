@@ -44,8 +44,8 @@
 .top-cart-content,
 .content-wrap,
 .section {
-	/* background-color: var(--cnvs-body-color); */
-	background-color: black !important;
+	background-color: var(--cnvs-body-color);
+	/* background-color: black !important; */
 }
 
 .bg-color-2,
