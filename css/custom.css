@@ -254,7 +254,7 @@ body{
     transform: translateY(-50%);
     width: 8px; /* Smaller width */
     height: 8px; /* Smaller height */
-    background-color: #7f1ada;
+    /* background-color: #7f1ada; */
     border-radius: 50%;
   }
 
