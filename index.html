@@ -141,9 +141,50 @@
         </p>
       </div>
 
+
+      <div class="categories">
+        <div class="category">
+            <img src="websiteimages/982351.jpg" alt="Category 1">
+            <div class="button-container">
+                <a href="#" class="shop-button">View Collection</a>
+              </div>
+        </div>
+        <div class="category">
+            <img src="websiteimages/982351.jpg" alt="Category 2">
+            <div class="button-container">
+                <a href="#" class="shop-button">View Collection</a>
+              </div>
+        </div>
+        <div class="category">
+            <img src="websiteimages/982351.jpg" alt="Category 3">
+            <div class="button-container">
+                <a href="#" class="shop-button">View Collection</a>
+              </div>
+        </div>
+        <div class="category">
+            <img src="websiteimages/982351.jpg" alt="Category 4">
+            <div class="button-container">
+                <a href="#" class="shop-button">View Collection</a>
+              </div>
+        </div>
+        <div class="category">
+            <img src="websiteimages/982351.jpg" alt="Category 5">
+            <div class="button-container">
+                <a href="#" class="shop-button">View Collection</a>
+              </div>
+        </div>
+        <div class="category">
+            <img src="websiteimages/982351.jpg" alt="Category 6">
+            <div class="button-container">
+                <a href="#" class="shop-button">View Collection</a>
+              </div>
+        </div>
+    </div>
+
+
     <!-- Footer
 		============================================= -->
-    <footer id="footer" class="dark bg-black border-top-0">
+    <footer id="footer" class="border-top-0" style="background-color: rgb(228, 228, 228);">
       <div class="container py-4">
         <!-- Footer Widgets
 				============================================= -->
@@ -156,24 +197,24 @@
             <div class="col-lg-3 col-6 offset-md-2">
               <div class="widget widget_links">
                 <h3
-                  class="text-transform-none ls-0 border-bottom d-inline-block mb-5"
+                  class="text-transform-none ls-0 d-inline-block mb-5" style="border-bottom: #000000;"
                 >
                   Contact Us
                 </h3>
 
-                <ul>
+                <ul style="color: #000000;">
                   <li class="mb-2">
-                    <a class="ls-1 text-light" href="mailto:info@evenx.live"
+                    <a class="ls-1"  style="color: #000000 !important;" href="mailto:info@evenx.live"
                       >info@evenx.live</a
                     >
                   </li>
                   <li class="mb-2">
-                    <a class="ls-1 text-light" href="tel:+91 87009 41900"
+                    <a class="ls-1"  style="color: #000000 !important;" href="tel:+91 87009 41900"
                       >+91 87009 41900
                     </a>
                   </li>
                   <li>
-                    <a class="ls-1 text-light" href="#"
+                    <a class="ls-1"  style="color: #000000 !important;" href="#"
                       >G-24, Block G, Sector-11, Noida, U.P - 201301</a
                     >
                   </li>
@@ -189,19 +230,19 @@
                   Follow Us
                 </h3>
 
-                <ul>
+                <ul style="color: #000000 !important;">
                   <li class="mb-2">
-                    <a class="ls-1 text-light" target="_blank" href="#"
+                    <a class="ls-1"  style="color: #000000 !important;" target="_blank" href="#"
                       >Facebook</a
                     >
                   </li>
                   <li class="mb-2">
-                    <a class="ls-1 text-light" target="_blank" href="#"
+                    <a class="ls-1"  style="color: #000000 !important;" target="_blank" href="#"
                       >Twitter</a
                     >
                   </li>
                   <li>
-                    <a class="ls-1 text-light" target="_blank" href="#"
+                    <a class="ls-1"  style="color: #000000 !important;" target="_blank" href="#"
                       >Instagram</a
                     >
                   </li>
@@ -219,7 +260,7 @@
       >
         <div class="container">
           <div class="row col-mb-30">
-            <div class="col-md-6 text-center text-md-start">
+            <div style="color: #000000 !important;" class="col-md-6 text-center text-md-start">
               &copy;2024 RAP Events & Xperiences LLP copyright all
               right reserved.
             </div>
@@ -521,4 +562,51 @@
     padding: 20px;
     border-radius: 10px;
   }
+
+
+  /* categories */
+
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.category {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    transition: transform 20s ease;
+}
+
+.category button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category:hover img {
+    transform: scale(1.5);
+}
+
+.category button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
 </style>
